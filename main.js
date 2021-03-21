@@ -1,7 +1,7 @@
 canvas = document.getElementById('myCanvas');
 ctx = canvas.getContext("2d");
 
-nasa_mars_images_array = ["nasa_image_1.jpg","nasa_image_2.jpeg", "nasa_image_3.jpg","nasa_image_4.jpg"];
+nasa_mars_images_array = ["https://ichef.bbci.co.uk/news/976/cpsprodpb/9353/production/_117351773_mars_perseverance_nrf_0009_0667756352_693ecm_n0030000ncam05000_01_295j.jpg","http://www.nasa.gov/sites/default/files/thumbnails/image/pia24482-4-1041.jpg", "https://images.outlookindia.com/public/uploads/articles/2020/12/15/MARS_570_850_571_855.jpg","https://mars.nasa.gov/system/resources/list_images/25512_25512_PIA24180-panorama-320x240.jpg"];
 
 random_number = Math.floor(Math.random() * 4);
 console.log(random_number);
